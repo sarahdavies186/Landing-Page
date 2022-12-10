@@ -1,0 +1,293 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1;
+  color: #000;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+}
+
+p {
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.bold-paragraph {
+  font-weight: 500;
+}
+
+/*buttons*/
+
+.button-primary {
+  padding: 8px 25px 8px;
+  border: 2px solid #e80789;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #e80789;
+  font-weight: bold;
+  transition: 100ms ease-in-out;
+}
+
+.button-primary:hover {
+  text-decoration: none;
+  border: 2px solid #000;
+  color: #000;
+}
+
+/*nav*/
+
+.wonderful-logo {
+  position: fixed;
+  padding-top: 30px;
+  font-size: 14rem;
+}
+
+.social-links-header ul {
+  padding: 0;
+}
+
+.social-links-header li {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-links-header {
+  padding: 30px;
+  text-align: end;
+}
+
+.social-links-header a {
+  font-size: 1.4rem;
+  color: black;
+  margin: 0 6px;
+  transition: 100ms ease-in-out;
+}
+
+.social-links-header a:hover {
+  color: #e80789;
+  text-decoration: none;
+}
+
+/*hero*/
+.hero {
+  height: 100vh;
+  background-image: url("../images/macbook.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  align-items: center;
+  text-align: left;
+}
+
+.hero .button-primary {
+  margin: 50px 15px;
+}
+
+/*welcome section*/
+
+.welcome-section {
+  padding: 100px 0;
+}
+
+.welcome-photo {
+  padding-left: 150px;
+}
+
+.welcome-title p {
+  padding-top: 10px;
+}
+
+.welcome-text {
+  margin-left: 50px;
+}
+
+.welcome-section-button a {
+  display: block;
+  margin-left: 50px;
+  color: #e80789;
+  font-weight: bold;
+  text-decoration: none;
+}
+.welcome-section-button:hover {
+  text-decoration: none;
+  color: #e80789;
+}
+
+/*stats section*/
+
+.stats-section {
+  background-color: #f9f9f9;
+  padding: 40px 0 50px;
+}
+
+.stats-section p {
+  margin: 0 90px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.stats-number {
+  font-size: 96px;
+  color: #e80789;
+  font-family: "Roboto Slab", serif;
+}
+
+/*form section*/
+
+.form-section {
+  background: transparent linear-gradient(118deg, #c6efe4 0%, #f5abd6 100%);
+  padding: 100px 0;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+  max-width: 400px;
+  border-radius: 10px;
+  border-top: #e80789 15px solid;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.22);
+}
+
+.form-text {
+  font-size: 12px;
+}
+
+.form-text-highlight {
+  font-size: 12px;
+  font-weight: bold;
+  color: #e80789;
+}
+
+form .btn-branding {
+  background: #e80789;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 27px;
+  transition: 100ms ease-in-out;
+}
+
+form .btn-branding:hover {
+  background: #d40e80;
+  color: #fff;
+}
+
+/*links section*/
+
+.links-section {
+  padding: 50px 0 50px 100px;
+  background-color: #292929;
+}
+
+.links-section h2 {
+  color: #fff;
+}
+
+.social-links-footer a {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 5px;
+  transition: 100ms ease-in-out;
+  text-decoration: none;
+}
+
+.social-links-footer a:hover {
+  color: #e80789;
+}
+
+.page-links a {
+  color: #545454;
+  text-decoration: none;
+  transition: 100ms ease-in-out;
+}
+
+.page-links a:hover {
+  color: #e80789;
+}
+
+/*footer*/
+footer {
+  padding: 20px 120px;
+}
+.footer-text p {
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+
+  .welcome-section {
+    padding: 0 0 40px 0;
+  }
+  .welcome-title {
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .welcome-title h2 {
+    color: #e80789;
+  }
+
+  .welcome-text {
+    margin-left: 0;
+    padding: 30px;
+  }
+
+  .welcome-section-button a {
+    margin-left: 0;
+  }
+
+  .stats-section {
+    padding: 20px 20px;
+  }
+
+  .stats-section p {
+    margin: 0 0px;
+    padding: 10px 0px;
+  }
+  .stats-number {
+    font-size: 66px;
+  }
+
+  .form-section {
+    padding: 40px 0;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .links-section {
+    padding: 50px 0 50px 0;
+    background-color: #292929;
+    text-align: center;
+  }
+}
